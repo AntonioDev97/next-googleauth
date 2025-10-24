@@ -8,7 +8,7 @@ WORKDIR /app
 COPY package.json package-lock.json ./ 
 
 # Instala las dependencias de npm
-RUN npm install --frozen-lockfile
+RUN npm install --frozen-lockfile --force
 
 # Copia el código fuente de tu aplicación
 COPY . .
