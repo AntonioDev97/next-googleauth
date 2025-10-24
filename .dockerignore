@@ -1,0 +1,31 @@
+# Dependencias
+node_modules
+.pnp
+.pnp.js
+
+# Construcción y caché
+.next/
+out/
+build/
+.vercel/
+
+# Editor/Sistema Operativo
+.git
+.gitignore
+.DS_Store
+
+# Archivos de depuración (debugging)
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.npm
+.yarn
+
+# Directorios de código fuente (si no están en la raíz, como /src)
+# ¡IMPORTANTE! NO ignores package.json ni package-lock.json
+
+# Archivos de entorno (deben ser pasados a Cloud Run como variables de entorno, no como archivos)
+.env
+.env.local
+.env.development.local
+.env.production.local
